@@ -31,8 +31,6 @@
 
 body {
     font-family: "Gotham-Light";
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch
 },
 html {
     width: 100%;
@@ -63,7 +61,7 @@ html {
 }*/
 
 .intro-header {
-    color: white;
+    // color: white;
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -72,11 +70,11 @@ html {
     -o-background-size: cover;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .intro-header {
       color: black;
   }
-}
+}*/
 
 .intro-bgvid {
   position: absolute;
