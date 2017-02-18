@@ -49,6 +49,8 @@ html {
     position: fixed;
     z-index: -200;
     top:0;
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
 }
 .bg-img-blur {
     opacity: 0;
