@@ -377,7 +377,8 @@ scroll::after {
 
 /* media query for animate.css font size only for h2 */
 .animated.animation-css-media-query  {
-    font-size: 200px;
+    font-size: 150px;
+    line-height: 100%;
 }
 @media(max-width: 768px) {
     .animated.animation-css-media-query  {
