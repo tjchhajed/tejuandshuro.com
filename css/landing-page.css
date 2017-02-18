@@ -58,6 +58,7 @@ html {
   .bg-img, .bg-img-blur {
        display: none;
        background: none;
+       z-index: -200;
   }
 }
 
