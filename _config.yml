@@ -1,0 +1,26 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://tejushuro.com
+title: Wedding
+email: hello@tejushuro.com
+author: Surajit Dutta
+description: The next is wedding
+copyright: Copyright &copy; 2016 The story of our life. All Rights Reserved.
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: facebook
+    url: https://www.facebook.com/tjsu1706
