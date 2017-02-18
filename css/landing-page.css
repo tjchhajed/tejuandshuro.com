@@ -54,11 +54,11 @@ html {
     opacity: 0;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .bg-img, .bg-img-blur {
       display: none;
   }
-}
+}*/
 
 .intro-header {
     color: white;
