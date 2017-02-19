@@ -75,6 +75,8 @@ html {
 
 @media (max-width: 767px) {
   .intro-header {
+      background-image: url('../img/couple0.png');
+      background-attachment: fixed;
       color: black;
   }
 }
