@@ -75,11 +75,10 @@ html {
 
 @media (max-width: 767px) {
   .intro-header {
-      background-image: none;
-      // url('../img/couple0.png');
+      background-image: url('../img/couple0.png');
       background-attachment: relative;
       background-size: 50% auto;
-      background-position: 50% 20%;
+      background-position: 0 20%;
       color: black;
   }
 }
