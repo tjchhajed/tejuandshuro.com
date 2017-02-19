@@ -77,6 +77,7 @@ html {
   .intro-header {
       background-image: url('../img/couple0.png');
       background-attachment: fixed;
+      background-size: contain;
       color: black;
   }
 }
