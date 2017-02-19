@@ -78,7 +78,7 @@ html {
       background-image: url('../img/couple0.png');
       background-attachment: relative;
       background-size: 50% auto;
-      background-position: 50% 40%;
+      background-position: 50% 20%;
       color: black;
   }
 }
@@ -393,7 +393,7 @@ scroll::after {
 }
 @media(max-width: 768px) {
     .animated.animation-css-media-query-h1  {
-        padding-top: 100%;
+        padding-top: 70%;
         // margin-top: 30%;
         font-size: 50px;
     }
