@@ -88,4 +88,9 @@ $(window).on('scroll', function () {
 $(document).ready(function() {
     /* css + js driven API */
     AOS.init();
+    var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+    		clockFace: 'DailyCounter',
+    		countdown: true
+    });
+
 });
