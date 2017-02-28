@@ -88,6 +88,4 @@ $(window).on('scroll', function () {
 $(document).ready(function() {
     /* css + js driven API */
     AOS.init();
-    /* pure js driven API */
-    skrollr.init();
 });
