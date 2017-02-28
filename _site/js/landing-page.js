@@ -83,3 +83,11 @@ $(window).on('scroll', function () {
     opacityVal = (pixs / 150.0);
     $(".bg-img-blur").css('opacity',opacityVal);
 });
+
+/* scroll based parallax */
+$(document).ready(function() {
+    /* css + js driven API */
+    AOS.init();
+    /* pure js driven API */
+    skrollr.init();
+});
