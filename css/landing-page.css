@@ -41,6 +41,7 @@
 
 body {
     font-family: "Gotham-Light";
+    overflow-x: hidden; 
 },
 html {
     width: 100%;
