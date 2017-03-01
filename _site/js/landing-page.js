@@ -84,13 +84,21 @@ $(window).on('scroll', function () {
     $(".bg-img-blur").css('opacity',opacityVal);
 });
 
-/* scroll based parallax */
-$(document).ready(function() {
-    /* css + js driven API */
-    AOS.init();
-    var clock = $('.clock').FlipClock(3600 * 24 * 3, {
-    		clockFace: 'DailyCounter',
-    		countdown: true
-    });
 
+var clock;
+$(document).ready(function() {
+
+    // init AOS
+    AOS.init();
+
+
+    // Grab the current date
+    var currentDate = new Date();
+    // Set some date in the future. ***change to desired date***
+    //var futureDate = new Date(2014, 11, 23, 6, 0, 0);
+    var futureDate = new Date(2017, 4, 8, 1); //fixed as per comments
+    // Calculate the difference in seconds between the future and current date
+    var diff = (futureDate.getTime() - currentDate.getTime()) / 1000;
+    // Instantiate a coutdown FlipClock
+    clock = $('.clock').FlipClock(diff, { clockFace: 'DailyCounter', countdown: true });
 });
