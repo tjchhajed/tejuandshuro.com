@@ -523,9 +523,8 @@ blockquote:before {
 }
 
 #clock {
-    font-size: 10px; 
-    zoom: 0.45;
-    -moz-transform: scale(0.45)
+    zoom: 0.4;
+    -moz-transform: scale(0.4)
     display: inline-block;
     width: auto;
 }
