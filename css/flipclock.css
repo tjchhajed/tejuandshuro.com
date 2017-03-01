@@ -1,5 +1,13 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
+
+.flip-clock-label,
+.clock ul:nth-child(1),
+.clock ul:nth-child(2),
+.clock ul:nth-child(3){
+    display: none;
+}
+
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

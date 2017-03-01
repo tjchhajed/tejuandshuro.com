@@ -41,7 +41,7 @@
 
 body {
     font-family: "Gotham-Light";
-    overflow-x: hidden; 
+    overflow-x: hidden;
 },
 html {
     width: 100%;
@@ -520,4 +520,12 @@ blockquote {
 }
 blockquote:before {
   color: #ccc;
+}
+
+#clock {
+    display: inline-block;
+    width: auto;
+}
+.clock-wrapper {
+    text-align: center;
 }

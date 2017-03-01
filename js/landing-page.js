@@ -100,5 +100,5 @@ $(document).ready(function() {
     // Calculate the difference in seconds between the future and current date
     var diff = (futureDate.getTime() - currentDate.getTime()) / 1000;
     // Instantiate a coutdown FlipClock
-    clock = $('.clock').FlipClock(diff, { clockFace: 'DailyCounter', countdown: true });
+    clock = $('#clock').FlipClock(diff, { clockFace: 'DailyCounter', countdown: true });
 });
