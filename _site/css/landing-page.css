@@ -526,11 +526,6 @@ blockquote:before {
     display: inline-block;
     width: auto;
 }
-@media (max-width:1000px) {
-  #clock{
-    zoom:0.45
-  }
-}
 .clock-wrapper {
     text-align: center;
 }
