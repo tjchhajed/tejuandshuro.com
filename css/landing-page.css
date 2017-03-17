@@ -234,14 +234,6 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-/* style for the google maps in the contact background */
-#map {
-    height: 60%;
-    width: 100%;
-    position: absolute;
-    z-index: -100;
-}
-
 /* transotopn of the navigation bar */
 .navbar {
     background: transparent;
@@ -478,4 +470,14 @@ blockquote:before {
     #bio{
         display: none;
     }
+}
+
+#shirdi {
+        height: 350px;
+        width: 100%;
+}
+
+#siliguri {
+        height: 350px;
+        width: 100%;
 }

@@ -98,3 +98,57 @@ $(document).ready(function() {
 
 			});
 		})(jQuery);
+
+document.getElementById("audio").volume = 0.5;
+
+
+var srd_pos = [19.757473,74.4751153];
+var slg_pos = [26.719957,88.434368];
+
+function showGoogleMaps() {
+
+    var srdLatLng = new google.maps.LatLng(srd_pos[0], srd_pos[1]);
+    var slgLatLng = new google.maps.LatLng(slg_pos[0], slg_pos[1]);
+
+    var srdMapOptions = {
+        zoom: 8, // initialize zoom level - the max value is 21
+        streetViewControl: false, // hide the yellow Street View pegman
+        scaleControl: true, // allow users to zoom the Google Map
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: srdLatLng,
+        disableDefaultUI: true
+    };
+
+    shirdi_map = new google.maps.Map(document.getElementById('shirdi'),
+        srdMapOptions);
+
+    // Show the default red marker at the location
+    shirdi_marker = new google.maps.Marker({
+        position: srdLatLng,
+        map: shirdi_map,
+        draggable: false,
+        animation: google.maps.Animation.DROP
+    });
+
+    var slgMapOptions = {
+        zoom: 10, // initialize zoom level - the max value is 21
+        streetViewControl: false, // hide the yellow Street View pegman
+        scaleControl: true, // allow users to zoom the Google Map
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: slgLatLng,
+        disableDefaultUI: true
+    };
+
+    siliguri_map = new google.maps.Map(document.getElementById('siliguri'),
+        slgMapOptions);
+
+    // Show the default red marker at the location
+    siliguri_marker = new google.maps.Marker({
+        position: slgLatLng,
+        map: siliguri_map,
+        draggable: false,
+        animation: google.maps.Animation.DROP
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', showGoogleMaps);
